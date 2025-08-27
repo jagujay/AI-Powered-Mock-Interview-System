@@ -1,0 +1,54 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python / FastAPI
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Datasets (ignore big data, keep samples)
+datasets/*
+!datasets/samples/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+
+# Coverage / Testing
+.coverage
+coverage/
+pytest_cache/
